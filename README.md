@@ -1,7 +1,7 @@
 # I build AI systems that refuse to ship unverified output.
 
 I build governed AI/data platforms for operating teams. Everything below is keyless and runs in
-about 90 seconds — 13 systems, 321 tests, in two lanes.
+about 90 seconds — 15 systems, 370 tests, in two lanes.
 
 ### Markets lane
 
@@ -50,6 +50,6 @@ refuses to cross.
 
 **[ops-log](https://github.com/alexbesp18/ops-log)** — the fleet's public operating record. Failures are published alongside wins, with the fix each one got.
 
-Behind these: ~12 scheduled systems firing ~130 times a day, and 600+ delegated agent runs across four model families — every one logged, with a different family reviewing high-stakes changes. ops-log is the public slice of that record.
+Behind these: a personal fleet of 47 scheduled jobs across two Macs and the cloud, and 700+ delegated agent runs across four model families. Every run is logged, and high-stakes changes go to a different family for review. ops-log carries the ledger itself — the run count, the 5.3% failure rate, and its own review-coverage gap stated rather than smoothed.
 
 Contact: [alex@egmail.net](mailto:alex@egmail.net)
