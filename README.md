@@ -44,12 +44,14 @@ refuses to cross.
 
 **[support-review-pipeline](https://github.com/alexbesp18/support-review-pipeline)** — support conversations → structured review records where every quote stays traceable to its source message.
 
+**[call-intelligence](https://github.com/alexbesp18/call-intelligence)** — call transcripts → a validated 40-field record, with per-field confidence routed to human review, a cost ceiling checked before work is done, and a promotion gate a weak extractor cannot pass.
+
 ---
 
 ### The operating record
 
 **[ops-log](https://github.com/alexbesp18/ops-log)** — the fleet's public operating record. Failures are published alongside wins, with the fix each one got.
 
-Behind these: a personal fleet of 47 scheduled jobs across two Macs and the cloud, and 700+ delegated agent runs across four model families. Every run is logged, and high-stakes changes go to a different family for review. ops-log carries the ledger itself — the run count, the 5.3% failure rate, and its own review-coverage gap stated rather than smoothed.
+Behind these: a personal fleet of 47 scheduled jobs across two Macs and the cloud, and 700+ delegated agent runs across four model families. Every run is logged. ops-log carries the ledger itself — the run count, the 5.3% failure rate, and the review-coverage gap: 3.4% of rows carry a per-run QA annotation. High-stakes work goes to a different family on held branches, but that field did not record it, so the record cannot prove it. The number is published instead of backfilled, and it moves from here.
 
 Contact: [alex@egmail.net](mailto:alex@egmail.net)
