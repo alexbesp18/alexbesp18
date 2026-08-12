@@ -52,6 +52,6 @@ refuses to cross.
 
 **[ops-log](https://github.com/alexbesp18/ops-log)** — the fleet's public operating record. Failures are published alongside wins, with the fix each one got.
 
-Behind these: a personal fleet of 47 scheduled jobs across two Macs and the cloud, and 700+ delegated agent runs across four model families. Every run is logged. ops-log carries the ledger itself — the run count, the 5.3% failure rate, and the review-coverage gap: 3.4% of rows carry a per-run QA annotation. High-stakes work goes to a different family on held branches, but that field did not record it, so the record cannot prove it. The number is published instead of backfilled, and it moves from here.
+Behind these: a personal fleet of 47 scheduled jobs across two Macs and the cloud, and 700+ delegated agent runs across four model families. Every run the wrappers take is logged. ops-log carries the ledger itself — 710 runs over 25 days, a 5.3% failure rate, and an honest note on what it can and cannot prove: 3.4% of rows carry a review annotation, which measures how often that field was filled in, not how often a review happened. Historical review coverage is not provable from the file. It is published rather than backfilled, and annotation starts now.
 
 Contact: [alex@egmail.net](mailto:alex@egmail.net)
