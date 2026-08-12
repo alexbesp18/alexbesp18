@@ -21,8 +21,6 @@ original does daily.
 
 **[equity-research-kit](https://github.com/alexbesp18/equity-research-kit)** — research artifacts treated as software: evidence correction, visual lint, and a spreadsheet clean-open gate that reports UNAVAILABLE rather than a fake pass.
 
-**[ops-log](https://github.com/alexbesp18/ops-log)** — the fleet's public operating record. Failures are published alongside wins, with the fix each one got.
-
 ---
 
 ### Operations lane
@@ -48,6 +46,10 @@ refuses to cross.
 
 ---
 
-Behind these: ~12 scheduled systems firing ~130 times a day, and 600+ delegated agent runs across four model families — every one logged, with a different family reviewing high-stakes changes; ops-log above is the public slice of that record.
+### The operating record
+
+**[ops-log](https://github.com/alexbesp18/ops-log)** — the fleet's public operating record. Failures are published alongside wins, with the fix each one got.
+
+Behind these: ~12 scheduled systems firing ~130 times a day, and 600+ delegated agent runs across four model families — every one logged, with a different family reviewing high-stakes changes. ops-log is the public slice of that record.
 
 Contact: [alex@egmail.net](mailto:alex@egmail.net)
