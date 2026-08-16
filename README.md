@@ -8,6 +8,7 @@ I build governed AI/data platforms for operating teams. Everything on this page 
 ### Ninety seconds, one real filing
 
 ```bash
+# needs uv (pip install uv, or brew install uv); Python 3.11+
 git clone https://github.com/alexbesp18/manager-13f && cd manager-13f
 uv sync && uv run pytest                              # 33 offline tests
 uv run python examples/build_cached_duquesne_demo.py  # zero keys, zero network
@@ -17,8 +18,6 @@ That builds this — a real SEC 13F filing (Duquesne Family Office, Q1 2026, 70 
 
 <a href="https://raw.githubusercontent.com/alexbesp18/alexbesp18/main/assets/specimen-duquesne-full.png"><img alt="manager-13f specimen: Duquesne Family Office 13F intelligence sheet — header band with gross/long/call/put/net, then holdings grouped by sleeve with weight, QoQ action, price, YTD, RSI, analyst consensus" src="https://raw.githubusercontent.com/alexbesp18/alexbesp18/main/assets/specimen-duquesne-top.png" width="100%"></a>
 <sub>Top of the sheet; click for the whole page. If the filing's number scale had been ambiguous, the engine would have refused to render it and said so.</sub>
-
-### How a number earns its way out
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alexbesp18/alexbesp18/main/assets/desk-dark.png">
