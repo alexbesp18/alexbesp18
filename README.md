@@ -1,9 +1,9 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alexbesp18/alexbesp18/main/assets/banner-dark.png">
-  <img alt="Alexander Bespalov — long-horizon agent systems, built to run unattended. I build AI systems that refuse to ship unverified output. 15 public systems · 374 tests · keyless." src="https://raw.githubusercontent.com/alexbesp18/alexbesp18/main/assets/banner-light.png" width="100%">
+  <img alt="Alexander Bespalov — long-horizon agent systems, built to run unattended. I build AI systems that refuse to ship unverified output. 15 public systems · 370+ tests · keyless." src="https://raw.githubusercontent.com/alexbesp18/alexbesp18/main/assets/banner-light.png" width="100%">
 </picture>
 
-I build governed AI/data platforms for operating teams. Everything on this page is keyless — each repo carries a demo that runs in about ninety seconds — **15 systems, 374 tests, all green from a clean clone on 2026‑08‑15**, in two lanes. Nothing here needs an API key, an account, or my machine. Here is one of them:
+I build governed AI/data platforms for operating teams. Everything on this page is keyless — each repo carries a demo that runs in about ninety seconds — **15 systems, 376 tests, all green from a clean clone on 2026‑08‑15**, in two lanes. Nothing here needs an API key, an account, or my machine. Here is one of them:
 
 ### Ninety seconds, one real filing
 
@@ -57,10 +57,10 @@ The same discipline pointed at business decisions instead of markets. These are 
 
 ### The operating record
 
-**[ops-log](https://github.com/alexbesp18/ops-log)** — the fleet's public operating record: failures published alongside wins, with the fix each one got. 17 tests guard the exporter itself.
+**[ops-log](https://github.com/alexbesp18/ops-log)** — the fleet's public operating record: failures published alongside wins, with the fix each one got. 19 tests guard the exporter itself.
 
-Behind these: a personal fleet of 47 scheduled jobs across two Macs and the cloud, and the delegated agent runs that build and check them, mostly across two coding agents. Every run the wrappers take is logged. ops-log carries the ledger — 717 runs across two months, a 5.3% failure rate, and an honest note on what it can and cannot prove: 3.4% of rows carry a review annotation, which measures how often that field was filled in, not how often a review happened. Historical review coverage is not provable from the file. It is published rather than backfilled, and annotation starts now.
+Behind these: a personal fleet of 47 scheduled jobs across two Macs and the cloud, and the delegated agent runs that build and check them, mostly across two coding agents. Every run the wrappers take is logged. ops-log carries the ledger — 717 runs across two months, a 5.3% failure rate, and an honest note on what it can and cannot prove: 3.3% of rows carry a review annotation, which measures how often that field was filled in, not how often a review happened. Historical review coverage is not provable from the file. It is published rather than backfilled, and annotation starts now.
 
-<sub>Test counts are what each suite reports from a clean clone on 2026‑08‑15 (pytest or unittest); 251 + 70 + 36 + 17 = 374.</sub>
+<sub>Test counts are what each suite reports from a clean clone on 2026‑08‑15 (pytest or unittest); 251 + 70 + 36 + 19 = 376.</sub>
 
 Contact: [alexbespalovtx@gmail.com](mailto:alexbespalovtx@gmail.com)
